@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        tools:context=".MainActivity" />
+    <TextView 
+        android:id="@+id/xy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tọa độ(float): "/>
+    <TextView 
+        android:id="@+id/invertedxy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tọa độ(int): "/>
+    <TextView 
+        android:id="@+id/size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kích thước ảnh: "/>
+    <TextView 
+        android:id="@+id/colorrgb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Màu: "/>
+    <ImageView
+        android:id="@+id/source1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/color"/>
+
+
+</LinearLayout>
