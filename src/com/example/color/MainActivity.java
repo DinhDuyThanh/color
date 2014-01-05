@@ -71,10 +71,12 @@ public class MainActivity extends Activity {
             mParams.leftMargin = x-20;
             mParams.topMargin = y-340;
             imgSource2.setLayoutParams(mParams);
+			int x2 = (int)imgSource2.getLeft();
+			int y2 = (int)imgSource2.getTop();
+			touchedXY.setText("Tọa độ ảnh di chuyển: "+x2+"/"+y2);
 			
-			
-			touchedXY.setText("Tọa độ(float): " + String.valueOf(eventX)
-					+ " / " + String.valueOf(eventY));
+//			touchedXY.setText("Tọa độ(float): " + String.valueOf(eventX)
+//					+ " / " + String.valueOf(eventY));
 			invertedXY.setText("Tọa độ(int): " + String.valueOf(x) + " / "
 					+ String.valueOf(y));
 
